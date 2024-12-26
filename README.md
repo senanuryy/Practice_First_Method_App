@@ -22,4 +22,5 @@ Proje, aşağıdaki metot türlerini içermektedir:
 - **Kullanım:** Bu metot, bir `string` isim ve bir `string` soyisim parametresi alır. Geriye bir değer döndürmez.
 
 ## Örnek Çıktı
-![image](https://github.com/user-attachments/assets/3a79bffd-5ab6-478c-b780-4501bf68b677)
+![image](https://github.com/user-attachments/assets/7f10f8c2-ef56-441b-be4d-fc19ee370764)
+
