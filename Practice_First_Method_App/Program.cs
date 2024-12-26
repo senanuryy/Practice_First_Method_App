@@ -20,12 +20,16 @@ namespace FirstMethodApp
                 Random rnd = new Random();
 
                 int rndNum = rnd.Next(1, 5942);
-                
-                return rndNum % 2;                                
+
+                int remainder = rndNum % 2;
+
+                Console.WriteLine($"{rndNum} sayısının 2'ye bölümünden kalan = {remainder}");
+
+                return remainder;                                
             }
 
-            Console.WriteLine("Random sayının 2'ye bölümünden kalan = " + GetRemainderOfTwo());
-
+            int remainder = GetRemainderOfTwo();
+            
             Console.WriteLine("--------------------------------------------------------------------------------");
 
             int Multiply (int num1, int num2)
